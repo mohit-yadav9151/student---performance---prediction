@@ -1,0 +1,37 @@
+{
+  "features": [
+    "attendance",
+    "study_hours",
+    "previous_gpa",
+    "assignment_score",
+    "internal_marks",
+    "sleep_hours",
+    "extra_activities",
+    "midterm_score"
+  ],
+  "scales": {
+    "attendance": 100.0,
+    "study_hours": 10.0,
+    "previous_gpa": 10.0,
+    "assignment_score": 100.0,
+    "internal_marks": 100.0,
+    "sleep_hours": 8.0,
+    "extra_activities": 10.0,
+    "midterm_score": 100.0
+  },
+  "weights": [
+    31.2324961538201,
+    11.16933514170314,
+    12.628282360053745,
+    10.15844447742389,
+    11.748403898256573,
+    8.163699760948134,
+    4.359661278246041,
+    8.625536142863151
+  ],
+  "bias": -2.1795368618574247,
+  "metrics": {
+    "mae": 2.732170030567282,
+    "r2": 0.8752013230533591
+  }
+}
